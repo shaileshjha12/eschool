@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<query name="FeeStrutcure.getFeeStructure">from FeeStructureEntity f where f.grade=:grade and f.year=:year</query>
+</hibernate-mapping>
